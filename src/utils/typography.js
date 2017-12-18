@@ -1,6 +1,6 @@
 import Typography from "typography";
-import kirkhamTheme from "typography-theme-kirkham";
+import MoragaTheme from "typography-theme-moraga";
 
-const typography = new Typography(kirkhamTheme);
+const typography = new Typography(MoragaTheme);
 
 module.exports = typography;

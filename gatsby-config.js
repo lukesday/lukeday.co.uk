@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Luke Day`,
+        title: `LUKE DAY`,
     },
     plugins: [{
             resolve: `gatsby-source-filesystem`,
@@ -16,5 +16,6 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
+        `gatsby-plugin-sass`,
     ],
 };

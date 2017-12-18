@@ -1,16 +1,16 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import { rhythm } from "../utils/typography";
+import "../styles/main.scss";
 
 export default ({ children, data }) => (
-  <div>
-    <Link to={`/`}>
-      <h3>
-        {data.site.siteMetadata.title}
-      </h3>
-    </Link>
-    {children()}
+  <div className="background">
+    <div className="container">
+        <h1>
+          {data.site.siteMetadata.title}
+        </h1>
+      {children()}
+    </div>
   </div>
 );
 
