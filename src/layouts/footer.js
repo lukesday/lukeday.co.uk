@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 
 const social = [
     {name: "GitHub", link: "https://github.com/lukesday"},
@@ -11,7 +10,7 @@ export default ({ children, data }) => (
         <h3>Follow Me</h3>
         <ul>
         {social.map((entry) => 
-            <li><Link to={entry.link}>{entry.name}</Link></li>
+            <li><a href={entry.link}>{entry.name}</a></li>
         )}
         </ul>
     </div>
