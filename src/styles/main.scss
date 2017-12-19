@@ -10,6 +10,13 @@ p {
 a {
     text-shadow: 1 1 2px $black;
     color: $linkColor;
+
+    &:hover {
+        text-decoration: none;
+        color: $linkColor;
+        background: $white;
+        
+    }
 }
 
 h1, h2, h3 , h4 {
