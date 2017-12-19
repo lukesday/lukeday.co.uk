@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `LUKE DAY`,
+        title: `Luke Day`,
     },
     plugins: [{
             resolve: `gatsby-source-filesystem`,
@@ -17,5 +17,6 @@ module.exports = {
             },
         },
         `gatsby-plugin-sass`,
+        `gatsby-plugin-react-helmet`,
     ],
 };
