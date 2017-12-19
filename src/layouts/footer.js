@@ -2,8 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 
 const social = [
-    {name: "Google", link: "http://www.google.com"},
-    {name: "GitHub", link: "https://github.com/lukesday"}
+    {name: "GitHub", link: "https://github.com/lukesday"},
 ]
 
 export default ({ children, data }) => (
