@@ -1,9 +1,9 @@
 import React from "react";
 
-export default ({ data }) => {
+export default ({ data, transition }) => {
   const post = data.markdownRemark;
   return (
-    <div>
+    <div style={transition && transition.style}>
       <h2>{post.frontmatter.title}</h2>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>

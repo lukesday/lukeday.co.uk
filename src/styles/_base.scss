@@ -3,18 +3,6 @@ p {
     font-size: 18px;
 }
 
-a {
-    text-shadow: 1 1 2px $black;
-    color: $linkColor;
-
-    &:hover {
-        text-decoration: none;
-        color: $linkColor;
-        background: $white;
-        
-    }
-}
-
 h1, h2, h3 , h4 {
     color: white;
     text-shadow: 1px 1px 2px $black;
@@ -48,8 +36,21 @@ h1 {
 }
 
 .main {
-    padding-top: 3rem;
+    padding-top: 3em;
     padding-bottom: 3rem;
+    min-height: 100vh;
+    
+    a {
+        text-shadow: 1 1 2px $black;
+        color: $linkColor;
+    
+        &:hover {
+            text-decoration: none;
+            color: $linkColor;
+            background: $white;
+            
+        }
+    }
 }
 
 body, html, #___gatsby {
@@ -57,7 +58,7 @@ body, html, #___gatsby {
     width: 100%;
 }
 
-.background {
+.poly-background {
     width: 100%;
     min-height: 100%;
     background: $bg url('../static/low_poly_bg_1920.png');
