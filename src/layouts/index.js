@@ -5,9 +5,14 @@ import Footer from "./footer";
 
 import "../styles/main.scss";
 
+import favicon from "../static/favicon.ico";
+
 export default ({ children, data }) => (
   <div className="background">
-    <Helmet title={`${data.site.siteMetadata.title} - Web Developer`} />
+    <Helmet>
+        <title>{data.site.siteMetadata.title} - Web Developer</title>
+        <link rel="shortcut icon" href={favicon} />
+    </Helmet>
     <div className="container main">
         <h1>
           {data.site.siteMetadata.title}
