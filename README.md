@@ -1,10 +1,8 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+# [Luke Day](https://lukeday.co.uk) Personal Site
+Based off the gatsby-starter-hello-world from [Gatsby](https://www.gatsbyjs.org/).
 
 ## Running in development
 `gatsby develop`
+
+## Running in production
+`gatsby build`
