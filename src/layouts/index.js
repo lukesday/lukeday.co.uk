@@ -13,19 +13,17 @@ export default ({ children, data }) => (
         <title>{data.site.siteMetadata.title} - Web Developer</title>
         <link rel="shortcut icon" href={favicon} />
     </Helmet>
-    <nav>
-        <div className="container">        
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/projects/">Projects</Link></li>
-            </ul>
-        </div>
-    </nav>
     <div className="poly-background">
         <div className="container main">
             <h1>
             {data.site.siteMetadata.title}
             </h1>
+            <nav>       
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/projects/">Projects</Link></li>
+                </ul>
+            </nav>
         {children()}
         </div>
     </div>
