@@ -16,8 +16,9 @@ export default ({ children, data }) => (
     <div className="poly-background">
         <div className="container main">
             <h1>
-            {data.site.siteMetadata.title}
+                {data.site.siteMetadata.title}
             </h1>
+            <h2 className="title">Full Stack Developer</h2>
             <nav>       
                 <ul>
                     <li><Link to="/">Home</Link></li>
