@@ -5,6 +5,8 @@ import Footer from "./footer";
 
 import "../styles/main.scss";
 
+import * as favicon from "../static/favicon.ico";
+
 interface IndexLayoutProps {
     data: {
         site: {
@@ -26,7 +28,7 @@ export default class extends React.Component<IndexLayoutProps, {}> {
             <div>
                 <Helmet>
                     <title>{this.props.data.site.siteMetadata.title} - Web Developer</title>
-                    <link rel="shortcut icon" href={"../static/favicon.ico"} />
+                    <link rel="shortcut icon" href={favicon} />
                 </Helmet>
                 <div className="poly-background">
                     <div className="container main">
